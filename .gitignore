@@ -34,3 +34,4 @@ data
 *.pem
 client.http
 *.http
+tsconfig.build.tsbuildinfo
