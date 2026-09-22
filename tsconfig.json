@@ -8,14 +8,13 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES2023",
+    "target": "es2023",
     "sourceMap": true,
-    "rootDir": "./src",
     "outDir": "./dist",
     "incremental": true,
     "skipLibCheck": true,
     "strict": true,
     "strictPropertyInitialization": false,
-    "types": ["vitest/globals", "node"]
-  }
+    "types": ["vitest/globals", "node"],
+  },
 }
