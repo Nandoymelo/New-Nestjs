@@ -7,6 +7,7 @@ import { envSchema } from './env';
 import { AuthenticateController } from './controllers/authenticate.controller';
 import { AuthModule } from './auth/auth.module';
 import { CreateQuestionController } from './controllers/create-questions.controller';
+import { FetchRecentQuestionsController } from './controllers/fetch-recent-questions.controller';
 
 export const { ObserveModule, ObserveInstrument } = createObserveModule();
 
@@ -18,7 +19,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
     }),
     AuthModule,
   ],
-  controllers: [CreateAccountController,AuthenticateController,CreateQuestionController],
+  controllers: [CreateAccountController,AuthenticateController,CreateQuestionController,FetchRecentQuestionsController],
   providers: [PrismaService],
 })
 export class AppModule {}
